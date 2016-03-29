@@ -1,0 +1,16 @@
+[
+{
+  "modid": "noidmat",
+  "name": "NoidMAT",
+  "description": "NoidMAT (Noid Minecraft Automation Tool) is a mod that allows the user to automate a variety of common tasks in Minecraft, and build custom plugins for specific tasks.",
+  "version": "0.0.0",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Hopding"],
+  "credits": "Authored by Hopding",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
