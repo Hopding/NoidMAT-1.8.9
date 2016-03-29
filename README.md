@@ -1,7 +1,7 @@
 # NoidMAT-1.8.9
 A Minecraft Forge Mod For Automating Minecraft
 
-NoidMAT (Noid Minecraft Automation Tool) is an extensible Minecraft Forge mod designed to automate as much as possible of Minecraft's survival mode. Instructions on its installation and use can be found in the README for the current [release](https://github.com/Hopding/NoidMAT-1.8.9/releases/).
+NoidMAT (Noid Minecraft Automation Tool) is an extensible Minecraft Forge mod designed to automate as much as possible of Minecraft's survival mode. NoidMAT operates on both singleplayer and multiplayer, even on completely vanilla multiplayer servers. Instructions on its installation and use can be found in the README for the current [release](https://github.com/Hopding/NoidMAT-1.8.9/releases/).
 
 By default, NoidMAT is currently able to:
  * Build walls
