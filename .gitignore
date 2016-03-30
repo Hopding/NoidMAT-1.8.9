@@ -1,0 +1,7 @@
+.gradle/
+.idea/
+NoidMAT-1.8.9.iml
+build/
+classes/
+eclipse/
+run/
