@@ -16,7 +16,8 @@
     <h2 class="project-tagline">A Minecraft Forge Mod For Automating Minecraft</h2>
     <a href="https://github.com/Hopding/NoidMAT-1.8.9" class="btn">View on GitHub</a>
     <a href="http://hopding.github.io/NoidMAT-1.8.9/javadoc/index.html" class="btn">NoidMAT API Docs</a>
-    <a href="https://github.com/Hopding/NoidMAT-1.8.9/files/194428/NoidMAT-0.0.0-beta.zip" class="btn">Download NoidMAT</a>
+    <a href="https://github.com/Hopding/NoidMAT-1.8.9/files/194428/NoidMAT-0.0.0-beta.zip" class="btn">Download
+        NoidMAT</a>
 </section>
 
 <section class="main-content">
@@ -32,23 +33,67 @@
 
     <h1>
         <a id="what-does-it-do?" class="anchor" href="#author" aria-hidden="true"><span aria-hidden="true"
-                                                                                        class="octicon octicon-link"></span></a>What Does it Do?</h1>
+                                                                                        class="octicon octicon-link"></span></a>What
+        Does it Do?</h1>
 
     <p>NoidMAT is a work in progress, and features are constantly being added and improved. NoidMAT is currently able to
-        perform three main tasks:
-        <ol>
-            <li>Build walls</li>
-            <li>Break down walls</li>
-            <li>Mine out areas</li>
-        </ol>
+        perform three main tasks by default:
+    <ol>
+        <li>Build walls</li>
+        <li>Break down walls</li>
+        <li>Mine out areas</li>
+    </ol>
     </p>
 
     <h1>
-        <a id="how-do-I-download-it?" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true"
-                                                                                                      class="octicon octicon-link"></span></a>How Do I Download it?</h1>
+        <a id="what-is-the-noidmat-api?" class="anchor" href="#author" aria-hidden="true"><span aria-hidden="true"
+                                                                                                class="octicon octicon-link"></span></a>What
+        is the NoidMAT API?</h1>
+
+    <p>NoidMAT is more than just a Forge mod, it has an API as well. Users can customize NoidMAT and create their own
+        special
+        purpose tasks with just a few simple lines of Java code. For example:</p>
+    <pre><code>player.walkForward(5);
+player.lookAtGroundLevelBlock();
+player.placeBlock(); </code></pre>
+    <p>will cause the player to walk forward 5 blocks, look down at the block directly in front of you, and place a block.
+        But you can get as crazy as you like, use any and all Java programming structures, and make use of any classes in
+        the standard JDK. You could, for example, do this:</p>
+    <pre><code>player.walkBackward(3);
+player.lookAtGroundLevelBlock();
+for(int i = 0; i < 4; i++) {
+    player.placeBlock();
+    player.turnLeft();
+}
+player.lookAtFootLevelBlock();
+for(int i = 0; i < 4; i++) {
+    player.placeBlock();
+    player.turnRight();
+}
+player.placeBlockBelow();
+player.placeBlockBelow();</code></pre>
+    <p>which will cause the player to walk backwards three blocks, and build a plus sign shape 2 blocks high.</p>
+
+    <h2>
+        <a id="but-I-don't-know-how-to-code" class="anchor" href="#support-or-contact" aria-hidden="true"><span
+                aria-hidden="true"
+                class="octicon octicon-link"></span></a>But I Don't Know How to Code</h2>
+
+    <p>That's perfectly fine! You don't have to write a single line of code to use NoidMAT. The NoidMAT API is a completely
+        optional feature that many users will never touch.
+    </p>
+    <p>Should you be interested in learning, however, I highly recommend going through this
+        <a href="http://www.homeandlearn.co.uk/java/java.html">tutorial</a> to get started.
+    </p>
+
+    <h1>
+        <a id="how-do-I-download-noidmat?" class="anchor" href="#support-or-contact" aria-hidden="true"><span
+                aria-hidden="true"
+                class="octicon octicon-link"></span></a>How Do I Download NoidMAT?</h1>
 
     <p>Click <a href="https://github.com/Hopding/NoidMAT-1.8.9/files/194428/NoidMAT-0.0.0-beta.zip">here</a>, download
-        and unzip the file, and peruse the README for installation instructions.
+        and unzip the file, and peruse the README for installation instructions and additional info and details on using
+        the mod and, if you're interested, the NoidMAT API.
     </p>
 
     <h1>
@@ -62,7 +107,8 @@
 
     <h2>
         <a id="author" class="anchor" href="#author" aria-hidden="true"><span aria-hidden="true"
-                                                                              class="octicon octicon-link"></span></a>Author</h2>
+                                                                              class="octicon octicon-link"></span></a>Author
+    </h2>
 
     <p>NoidMAT was created in 2016 by Andrew Dillon (<a href="https://github.com/Hopding"
                                                         class="user-mention">@Hopding</a>).</p>
