@@ -16,7 +16,7 @@ BuildWall 5:5
 
 Users can make their own tasks to be automated by NoidMAT by utilizing the NoidMAT API and writing some very simple java code. Details can be found in the README for the current [release](https://github.com/Hopding/NoidMAT-1.8.9/releases/).
 
-Additional information can be found on NoidMAT-1.8.9's [wiki](https://github.com/Hopding/NoidMAT-1.8.9/wiki).
+Additional information can be found on NoidMAT-1.8.9's [website](http://hopding.github.io/NoidMAT-1.8.9/).
 
 #Clone and Setup this Repo (for Developers)
 First, you must clone this repo to a local repo on your machine:
